@@ -16,6 +16,7 @@ app.layout = html.Div([
 
 ])
 
+
 @app.callback(
     Output('graph1', 'figure'),
     Input(component_id='date-dropdown', component_property='value')
